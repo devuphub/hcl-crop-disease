@@ -58,7 +58,8 @@ class NumberedCanvas(canvas.Canvas):
 
 def build_srs_pdf(
     output_pdf_path: str,
-    students: list = None,
+    student_name: str = "DEV PRAKASH UPADHYAY",
+    roll_number: str = "2400320100401",
     branch: str = "CSE",
     semester_year: str = "5th Semester / 3rd Year",
     college_name: str = "ABES Engineering College, Ghaziabad",
@@ -67,11 +68,6 @@ def build_srs_pdf(
     github_url: str = "https://github.com/devuphub/hcl-crop-disease",
     live_app_url: str = "https://agriscan-ai.streamlit.app"
 ):
-    if students is None:
-        students = [
-            {"name": "DEV PRAKASH UPADHYAY", "roll": "2400320100401"},
-            {"name": "DEVANSH RASTOGI", "roll": "2400320100408"}
-        ]
 
     doc = SimpleDocTemplate(
         output_pdf_path,
@@ -223,22 +219,17 @@ def build_srs_pdf(
     story.append(Paragraph("<i>Submitted in partial fulfillment of the requirements for the degree of</i>", ParagraphStyle('SubDesc', alignment=1, fontSize=8.5, leading=12, spaceAfter=2)))
     story.append(Paragraph("<b>Bachelor of Technology in Computer Science & Engineering</b>", ParagraphStyle('Degree', alignment=1, fontSize=10, leading=13, textColor=colors.HexColor("#1b365d"), spaceAfter=14)))
 
-    # Submission Table with Both Students
+    # Submission Table
     sub_data = [
         [Paragraph("<font color='white'><b>SUBMITTED BY</b></font>", table_cell_header), Paragraph("", table_cell_header)],
-    ]
-    
-    for i, s in enumerate(students, 1):
-        sub_data.append([Paragraph(f"<b>STUDENT {i} NAME</b>", table_cell), Paragraph(f"<b>{s['name']}</b>", table_cell)])
-        sub_data.append([Paragraph(f"<b>ROLL NUMBER ({s['name'].split()[0]})</b>", table_cell), Paragraph(s['roll'], table_cell)])
-
-    sub_data.extend([
+        [Paragraph("<b>STUDENT NAME</b>", table_cell), Paragraph(f"<b>{student_name}</b>", table_cell)],
+        [Paragraph("<b>ROLL NUMBER</b>", table_cell), Paragraph(f"<b>{roll_number}</b>", table_cell)],
         [Paragraph("<b>BRANCH</b>", table_cell), Paragraph(branch, table_cell)],
         [Paragraph("<b>SEMESTER / YEAR</b>", table_cell), Paragraph(semester_year, table_cell)],
         [Paragraph("<b>COLLEGE NAME</b>", table_cell), Paragraph(college_name, table_cell)],
         [Paragraph("<b>ACADEMIC YEAR</b>", table_cell), Paragraph(academic_year, table_cell)],
         [Paragraph("<b>PROJECT GUIDE</b>", table_cell), Paragraph(f"<b>{project_guide}</b>", table_cell)],
-    ])
+    ]
 
     t_sub = Table(sub_data, colWidths=[170, 362])
     t_sub.setStyle(TableStyle([
