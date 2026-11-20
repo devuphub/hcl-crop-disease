@@ -77,12 +77,6 @@ def render_sidebar():
     st.sidebar.title("🌿 AgriScan AI")
     st.sidebar.markdown("**Deep Learning Crop Pathology & Treatment Platform**")
     
-    app_mode = st.sidebar.radio(
-        "Navigation",
-        ["🔍 Disease Diagnosis", "📊 Model Architecture & Evaluation", "📖 Crop Pathology Encyclopedia", "🚀 REST API & Deployment"],
-        index=0
-    )
-
     st.sidebar.markdown("---")
     st.sidebar.markdown("### 📋 Crops Available")
     st.sidebar.caption("Supported agricultural cash crops and pathology profiles:")
@@ -104,11 +98,9 @@ def render_sidebar():
     """
     render_html(status_html, target=st.sidebar)
 
-    return app_mode
-
 
 def main():
-    app_mode = render_sidebar()
+    render_sidebar()
     predictor = load_predictor()
     disease_info = load_disease_info()
     metrics = load_metrics()
@@ -128,10 +120,18 @@ def main():
     """
     render_html(header_html)
 
+    # Modern Horizontal Navigation Tabs
+    tab_diag, tab_model, tab_encyclopedia, tab_api = st.tabs([
+        "🔍 Disease Diagnosis",
+        "📊 Model Architecture & Evaluation",
+        "📖 Crop Pathology Encyclopedia",
+        "🚀 REST API & Deployment"
+    ])
+
     # -------------------------------------------------------------
     # TAB 1: DISEASE DIAGNOSIS
     # -------------------------------------------------------------
-    if app_mode == "🔍 Disease Diagnosis":
+    with tab_diag:
         col_input, col_results = st.columns([1, 1], gap="large")
 
         input_image = None
@@ -277,9 +277,7 @@ def main():
             else:
                 st.info("👈 Please upload an image or choose a curated sample on the left panel to begin diagnosis.")
 
-        # -------------------------------------------------------------
-        # BELOW THE MAIN DASHBOARD: NEWS, ALERTS & PRECAUTIONS
-        # -------------------------------------------------------------
+        # Below-the-fold News & Precautions
         st.markdown("<hr style='margin-top: 35px; margin-bottom: 25px; border: 0; border-top: 1px solid #e2e8f0;'>", unsafe_allow_html=True)
         
         col_news, col_precautions = st.columns([1, 1], gap="large")
@@ -374,7 +372,7 @@ def main():
     # -------------------------------------------------------------
     # TAB 2: MODEL ARCHITECTURE & EVALUATION
     # -------------------------------------------------------------
-    elif app_mode == "📊 Model Architecture & Evaluation":
+    with tab_model:
         st.subheader("Deep Learning CNN Model Architecture & Evaluation")
         
         c1, c2, c3, c4 = st.columns(4)
@@ -435,7 +433,7 @@ Softmax Probability Distribution (18 Classes)
     # -------------------------------------------------------------
     # TAB 3: CROP PATHOLOGY ENCYCLOPEDIA
     # -------------------------------------------------------------
-    elif app_mode == "📖 Crop Pathology Encyclopedia":
+    with tab_encyclopedia:
         st.subheader("Agricultural Crop Pathology Encyclopedia")
         st.markdown("Browse complete symptom guides, causal agents, and verified treatment protocols across all 5 staple crops in ordered hierarchy.")
 
@@ -483,7 +481,7 @@ Softmax Probability Distribution (18 Classes)
     # -------------------------------------------------------------
     # TAB 4: REST API & DEPLOYMENT
     # -------------------------------------------------------------
-    elif app_mode == "🚀 REST API & Deployment":
+    with tab_api:
         st.subheader("Production Integration & Cloud Deployment")
 
         st.markdown("""

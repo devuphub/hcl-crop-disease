@@ -35,13 +35,34 @@ header[data-testid="stHeader"] {
     height: 2rem !important;
 }
 
+/* Modern Horizontal Tabs */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 8px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #e2e8f0;
+}
+
+.stTabs [data-baseweb="tab"] {
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: #475569;
+    padding: 8px 18px;
+    border-radius: 8px 8px 0 0;
+    transition: all 0.2s ease;
+}
+
+.stTabs [aria-selected="true"] {
+    color: #15803d !important;
+    border-bottom-color: #16a34a !important;
+}
+
 /* Vibrant, Fresh Green Header (Brighter & Modern, Not Dark/Gloomy) */
 .main-header-clean {
     background: linear-gradient(135deg, #15803d 0%, #16a34a 50%, #22c55e 100%);
     padding: 24px 28px;
     border-radius: 14px;
     color: white;
-    margin-bottom: 22px;
+    margin-bottom: 20px;
     box-shadow: 0 8px 24px rgba(22, 163, 74, 0.22);
     border: 1px solid rgba(255, 255, 255, 0.25);
 }
