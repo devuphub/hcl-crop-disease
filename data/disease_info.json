@@ -1,0 +1,360 @@
+{
+  "Apple___Apple_scab": {
+    "crop": "Apple",
+    "disease": "Apple Scab",
+    "is_healthy": false,
+    "pathogen": "Venturia inaequalis (Fungus)",
+    "severity": "Moderate to High",
+    "symptoms": "Olive-green to dull brown velvety spots on upper leaf surfaces that turn corky and brittle over time. Fruit develops scabby dark blemishes.",
+    "cause": "Extended periods of wet leaves in spring temperatures between 13°C and 24°C.",
+    "organic_treatment": [
+      "Spray wettable sulfur or copper soap fungicide before bloom and after rain events.",
+      "Apply bio-fungicides containing Bacillus subtilis or Trichoderma harzianum.",
+      "Rake and shred or compost fallen apple leaves in autumn to disrupt overwintering."
+    ],
+    "chemical_treatment": [
+      "Foliar spray with Captan (50 WP) @ 2.5 g/L or Mancozeb (75 WP) @ 2.0 g/L.",
+      "Systemic fungicides such as Difenoconazole or Myclobutanil during early active infection."
+    ],
+    "prevention": [
+      "Plant scab-resistant cultivars (e.g., Liberty, Prima, Enterprise).",
+      "Prune canopies annually to ensure sunlight penetration and rapid leaf drying.",
+      "Avoid overhead sprinkler irrigation."
+    ]
+  },
+  "Apple___Black_rot": {
+    "crop": "Apple",
+    "disease": "Black Rot (Frogeye Leaf Spot)",
+    "is_healthy": false,
+    "pathogen": "Botryosphaeria obtusa (Fungus)",
+    "severity": "High",
+    "symptoms": "Small purple spots on leaves expanding into circular lesions with light brown centers and dark purple margins ('frogeye' appearance). Causes mummified black fruit rot.",
+    "cause": "Enters through bark wounds, fire blight cankers, or insect punctures under humid conditions (20-27°C).",
+    "organic_treatment": [
+      "Prune dead limbs, cankers, and remove all mummified fruit hanging on trees.",
+      "Apply liquid copper or lime-sulfur early in the growing season."
+    ],
+    "chemical_treatment": [
+      "Apply Thiophanate-methyl combined with Captan starting from petal fall through cover sprays."
+    ],
+    "prevention": [
+      "Maintain tree vigor through balanced potassium and nitrogen fertilization.",
+      "Prune during dry winter periods and sterilize pruning tools between cuts."
+    ]
+  },
+  "Apple___Cedar_apple_rust": {
+    "crop": "Apple",
+    "disease": "Cedar Apple Rust",
+    "is_healthy": false,
+    "pathogen": "Gymnosporangium juniperi-virginianae (Fungus)",
+    "severity": "Moderate",
+    "symptoms": "Bright yellow-orange or reddish-orange circular spots on leaf surface. Underside develops small raised tubular fruiting bodies.",
+    "cause": "Requires two host plants (Eastern Red Cedar/Juniper and Apple) within a 1-2 mile radius to complete life cycle.",
+    "organic_treatment": [
+      "Remove nearby wild red cedar or ornamental juniper trees where feasible.",
+      "Apply sulfur-based preventative sprays starting at pink bud stage."
+    ],
+    "chemical_treatment": [
+      "Apply Myclobutanil or Propiconazole at petal fall and continue at 7-10 day intervals during high spore release."
+    ],
+    "prevention": [
+      "Select resistant apple varieties (e.g., Freedom, Redfree, Liberty).",
+      "Inspect nearby junipers for brown galls and prune them before spring rains."
+    ]
+  },
+  "Apple___healthy": {
+    "crop": "Apple",
+    "disease": "Healthy Plant (No Disease Detected)",
+    "is_healthy": true,
+    "pathogen": "None (Plant is physiologically sound)",
+    "severity": "None",
+    "symptoms": "Vibrant green leaves, uniform cellular texture, no discoloration, lesions, or necrosis.",
+    "cause": "Optimal growing conditions, balanced nutrition, and adequate pest protection.",
+    "organic_treatment": [
+      "Continue standard organic compost application and beneficial insect habitat preservation."
+    ],
+    "chemical_treatment": [
+      "No chemical treatment required."
+    ],
+    "prevention": [
+      "Maintain periodic routine scouting for early pest or pathogen presence.",
+      "Ensure proper irrigation and seasonal pruning."
+    ]
+  },
+  "Corn___Common_rust": {
+    "crop": "Corn (Maize)",
+    "disease": "Common Rust",
+    "is_healthy": false,
+    "pathogen": "Puccinia sorghi (Fungus)",
+    "severity": "Moderate",
+    "symptoms": "Cinnamon-brown, elongated to oval powdery pustules scattered across both leaf surfaces. Pustules rupture the epidermis releasing powdery spores.",
+    "cause": "Cool to moderate temperatures (16-25°C) with high relative humidity (>95%) and prolonged leaf wetness (dew).",
+    "organic_treatment": [
+      "Apply potassium bicarbonate sprays or mineral oil emulsions to reduce spore germination.",
+      "Incorporate crop residues deeply immediately after harvest."
+    ],
+    "chemical_treatment": [
+      "Apply Azoxystrobin + Difenoconazole or Pyraclostrobin when pustules appear on upper leaves before tasseling."
+    ],
+    "prevention": [
+      "Plant rust-resistant hybrids featuring Rp1-D or related resistant genes.",
+      "Avoid planting susceptible late-season or continuous corn blocks."
+    ]
+  },
+  "Corn___Northern_Leaf_Blight": {
+    "crop": "Corn (Maize)",
+    "disease": "Northern Corn Leaf Blight",
+    "is_healthy": false,
+    "pathogen": "Exserohilum turcicum (Fungus)",
+    "severity": "High",
+    "symptoms": "Long, elliptical cigar-shaped grayish-green to tan lesions (2.5 to 15 cm long) developing on leaves. Heavy infection causes leaves to look burned.",
+    "cause": "Moderate temperatures (18-27°C) accompanied by extended overcast days and wet foliage.",
+    "organic_treatment": [
+      "Rotate fields with non-host crops like soybeans or alfalfa.",
+      "Shred and chisel-plow residue to bury fungal mycelia."
+    ],
+    "chemical_treatment": [
+      "Apply strobilurin and triazole premix fungicides (e.g., Trifloxystrobin + Prothioconazole) at VT to R1 stage."
+    ],
+    "prevention": [
+      "Use resistant corn hybrids with Ht genes.",
+      "Maintain balanced soil fertility (avoid excessive nitrogen and ensure adequate potassium)."
+    ]
+  },
+  "Corn___healthy": {
+    "crop": "Corn (Maize)",
+    "disease": "Healthy Plant (No Disease Detected)",
+    "is_healthy": true,
+    "pathogen": "None (Plant is physiologically sound)",
+    "severity": "None",
+    "symptoms": "Uniform deep green leaf blade, intact parallel venation, sturdy stem development.",
+    "cause": "Optimal soil moisture, balanced NPK fertilization, and proper weed management.",
+    "organic_treatment": [
+      "Continue regular foliar seaweed extract or compost tea nourishment."
+    ],
+    "chemical_treatment": [
+      "No chemical treatment required."
+    ],
+    "prevention": [
+      "Continue monitoring for fall armyworm, stem borer, and moisture stress."
+    ]
+  },
+  "Potato___Early_blight": {
+    "crop": "Potato",
+    "disease": "Early Blight",
+    "is_healthy": false,
+    "pathogen": "Alternaria solani (Fungus)",
+    "severity": "Moderate to High",
+    "symptoms": "Dark brown to black angular spots on older lower leaves displaying concentric target rings. Foliage yellows around spots and eventually withers.",
+    "cause": "Alternating wet and dry weather cycles with temperatures around 24-29°C; plant stress during tuber bulking.",
+    "organic_treatment": [
+      "Spray copper hydroxide or copper sulfate pentahydrate at initial lesion detection.",
+      "Remove severely spotted lower leaves to reduce inocula."
+    ],
+    "chemical_treatment": [
+      "Foliar application of Chlorothalonil (75 WP) @ 2 g/L or Mancozeb @ 2.5 g/L alternating with Boscalid."
+    ],
+    "prevention": [
+      "Maintain a 3-4 year crop rotation away from solanaceous crops (tomatoes, eggplants, peppers).",
+      "Ensure uniform soil moisture using drip irrigation to avoid foliar wetting."
+    ]
+  },
+  "Potato___Late_blight": {
+    "crop": "Potato",
+    "disease": "Late Blight",
+    "is_healthy": false,
+    "pathogen": "Phytophthora infestans (Oomycete)",
+    "severity": "Critical / Devastating",
+    "symptoms": "Irregular water-soaked pale-green to brown lesions rapidly expanding across leaves. In humid mornings, delicate white fuzzy mold appears on leaf undersides. Rot emits pungent odor.",
+    "cause": "Cool temperatures (10-20°C) with persistent humidity (>90%) and rain or prolonged fog.",
+    "organic_treatment": [
+      "Spray Bordeaux mixture (1%) or copper octanoate preventatively prior to rain spells.",
+      "Destroy and safely bury infected vines immediately to safeguard tubers."
+    ],
+    "chemical_treatment": [
+      "Curative/systemic spray with Cymoxanil + Mancozeb, Metalaxyl-M, or Dimethomorph immediately upon local forecast alerts."
+    ],
+    "prevention": [
+      "Plant certified disease-free seed tubers.",
+      "Destroy cull piles and self-sown potato tubers before planting season.",
+      "Hill soil generously around potato hills to prevent spores washing into tubers."
+    ]
+  },
+  "Potato___healthy": {
+    "crop": "Potato",
+    "disease": "Healthy Plant (No Disease Detected)",
+    "is_healthy": true,
+    "pathogen": "None (Plant is physiologically sound)",
+    "severity": "None",
+    "symptoms": "Lush compound leaves, vibrant deep green canopy, absence of water-soaking or necrotized spots.",
+    "cause": "Good soil drainage, certified seed tubers, and timely cultural operations.",
+    "organic_treatment": [
+      "Apply organic humic acid and micro-nutrient foliar spray during vegetative phase."
+    ],
+    "chemical_treatment": [
+      "No chemical treatment required."
+    ],
+    "prevention": [
+      "Regularly scout underneath dense foliage for early signs of mildew or blight."
+    ]
+  },
+  "Rice___Brown_Spot": {
+    "crop": "Rice",
+    "disease": "Brown Spot",
+    "is_healthy": false,
+    "pathogen": "Bipolaris oryzae / Cochliobolus miyabeanus (Fungus)",
+    "severity": "Moderate to High",
+    "symptoms": "Small, oval, sesame-seed shaped brown spots with yellow halos across leaf blades. Severe cases cause seedling blight and grain discoloration.",
+    "cause": "Nutrient-depleted soils (low silicon, potassium, or manganese) combined with high humidity (86-100%) and 16-36°C.",
+    "organic_treatment": [
+      "Treat seeds before sowing with hot water (52-54°C for 10 min) or Pseudomonas fluorescens @ 10 g/kg seed.",
+      "Incorporate green manure and silicon fertilizer to fortify plant cell walls."
+    ],
+    "chemical_treatment": [
+      "Seed treatment with Carbendazim (2g/kg) and foliar spray of Tricyclazole (75 WP) @ 0.6 g/L or Propiconazole (25 EC) @ 1 ml/L."
+    ],
+    "prevention": [
+      "Ensure balanced soil fertilization with adequate potassium and zinc.",
+      "Avoid water stress by maintaining proper field water levels during panicle development."
+    ]
+  },
+  "Rice___Leaf_Blast": {
+    "crop": "Rice",
+    "disease": "Leaf Blast",
+    "is_healthy": false,
+    "pathogen": "Magnaporthe oryzae (Pyricularia oryzae) (Fungus)",
+    "severity": "Critical",
+    "symptoms": "Spindle-shaped or diamond-shaped lesions with gray-whitish centers and reddish-brown borders. Spots coalesce causing complete drying and burning of leaves.",
+    "cause": "Excessive nitrogen fertilizer, prolonged cloudy days, and high relative humidity (>90%) with cool night temperatures (17-20°C).",
+    "organic_treatment": [
+      "Foliar spray of neem seed kernel extract (5%) or Pseudomonas fluorescens @ 2.5 kg/ha.",
+      "Avoid excessive synthetic nitrogen applications."
+    ],
+    "chemical_treatment": [
+      "Foliar spray with Tricyclazole (75 WP) @ 0.6 g/L, Isoprothiolane (40 EC) @ 1.5 ml/L, or Kasugamycin @ 2 ml/L at first appearance."
+    ],
+    "prevention": [
+      "Plant blast-tolerant rice cultivars suited for your agro-climatic zone.",
+      "Apply split doses of nitrogen fertilizer rather than a single heavy application."
+    ]
+  },
+  "Rice___healthy": {
+    "crop": "Rice",
+    "disease": "Healthy Plant (No Disease Detected)",
+    "is_healthy": true,
+    "pathogen": "None (Plant is physiologically sound)",
+    "severity": "None",
+    "symptoms": "Upright, vibrant green blades, healthy tillering, clean ligules and leaf sheaths.",
+    "cause": "Balanced water ponding, correct fertilizer ratios, and healthy root oxygenation.",
+    "organic_treatment": [
+      "Apply Azospirillum or mycorrhizal biofertilizers to enhance root vigor."
+    ],
+    "chemical_treatment": [
+      "No chemical treatment required."
+    ],
+    "prevention": [
+      "Maintain continuous shallow flooding (2-5 cm) to suppress weeds and stabilize soil temperature."
+    ]
+  },
+  "Tomato___Bacterial_spot": {
+    "crop": "Tomato",
+    "disease": "Bacterial Spot",
+    "is_healthy": false,
+    "pathogen": "Xanthomonas perforans / Xanthomonas vesicatoria (Bacteria)",
+    "severity": "Moderate to High",
+    "symptoms": "Small, dark brown, water-soaked circular spots (2-3 mm) on foliage, often surrounded by yellow halos. Margins of leaves may appear ragged or scorched.",
+    "cause": "Warm temperatures (24-30°C) with rain splashes, overhead irrigation, and high relative humidity.",
+    "organic_treatment": [
+      "Spray copper octanoate or fixed copper compounds combined with Bacillus amyloliquefaciens.",
+      "Prune affected lower leaves during dry afternoons."
+    ],
+    "chemical_treatment": [
+      "Foliar spray with copper hydroxide mixed with Mancozeb to overcome bacterial copper resistance, or Streptomycin sulfate where permitted."
+    ],
+    "prevention": [
+      "Use certified pathogen-free seeds treated with hot water (50°C for 25 min).",
+      "Avoid working in tomato fields when leaves are wet to prevent pathogen transfer."
+    ]
+  },
+  "Tomato___Early_blight": {
+    "crop": "Tomato",
+    "disease": "Early Blight",
+    "is_healthy": false,
+    "pathogen": "Alternaria solani (Fungus)",
+    "severity": "Moderate to High",
+    "symptoms": "Brown to black lesions with characteristic concentric bullseye/target rings starting on oldest bottom leaves. Yellow halo surrounds necrotic tissue; causes defoliation.",
+    "cause": "Warm temperatures (24-29°C) and alternating wet and dry weather; fungal spores splash upward from soil.",
+    "organic_treatment": [
+      "Apply organic bio-fungicide Bacillus subtilis or Trichoderma viride.",
+      "Mulch soil around plants with straw or plastic film to prevent soil splash onto leaves."
+    ],
+    "chemical_treatment": [
+      "Foliar spray with Chlorothalonil (2 g/L), Mancozeb (2.5 g/L), or Azoxystrobin + Difenoconazole."
+    ],
+    "prevention": [
+      "Stake and prune tomato vines to keep foliage well above the ground.",
+      "Use drip irrigation rather than overhead sprinklers."
+    ]
+  },
+  "Tomato___Late_blight": {
+    "crop": "Tomato",
+    "disease": "Late Blight",
+    "is_healthy": false,
+    "pathogen": "Phytophthora infestans (Oomycete)",
+    "severity": "Critical",
+    "symptoms": "Large, irregular greenish-black water-soaked lesions that turn dark brown and papery. In moist weather, white cottony sporulation appears on leaf undersides; causes rapid plant collapse.",
+    "cause": "Cool, damp weather with temperatures of 15-22°C and high relative humidity (>90%).",
+    "organic_treatment": [
+      "Apply preventative copper sulfate sprays before rain systems move in.",
+      "Uproot and immediately bag and destroy infected plants to prevent airborne spore clouds."
+    ],
+    "chemical_treatment": [
+      "Apply Mandipropamid, Cymoxanil + Mancozeb, or Metalaxyl immediately upon first signs."
+    ],
+    "prevention": [
+      "Grow late blight resistant varieties (e.g., Mountain Magic, Defiant PhR).",
+      "Ensure generous plant spacing (60-90 cm) for fast wind drying."
+    ]
+  },
+  "Tomato___Yellow_Leaf_Curl_Virus": {
+    "crop": "Tomato",
+    "disease": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "is_healthy": false,
+    "pathogen": "Begomovirus (Transmitted by Silverleaf Whitefly Bemisia tabaci)",
+    "severity": "High",
+    "symptoms": "Upward curling and cupping of leaf margins, severe yellowing (chlorosis) along leaf margins and veins, stunted bushy growth, flower abortion, and drastic yield drop.",
+    "cause": "Vector transmission by Silverleaf Whiteflies feeding on plant sap; rapid spread in warm seasons.",
+    "organic_treatment": [
+      "Install yellow sticky traps (1 trap per 100 sq ft) to monitor and capture adult whiteflies.",
+      "Spray cold-pressed neem oil (1-2%) or insecticidal potassium soaps targeting leaf undersides.",
+      "Introduce natural predators like Encarsia formosa or lacewings."
+    ],
+    "chemical_treatment": [
+      "Foliar application of Imidacloprid (17.8 SL) @ 0.3 ml/L, Acetamiprid, or Thiamethoxam to control whitefly vector population."
+    ],
+    "prevention": [
+      "Plant TYLCV-resistant hybrids (e.g., Tycoon, Sakura).",
+      "Use fine mesh insect netting (50-mesh) in nursery beds and greenhouses.",
+      "Rogue out and destroy infected plants immediately to prevent virus reservoir."
+    ]
+  },
+  "Tomato___healthy": {
+    "crop": "Tomato",
+    "disease": "Healthy Plant (No Disease Detected)",
+    "is_healthy": true,
+    "pathogen": "None (Plant is physiologically sound)",
+    "severity": "None",
+    "symptoms": "Deep emerald green foliage, crisp leaf margins, vigorous terminal shoot elongation, blossoms setting fruit normally.",
+    "cause": "Optimal photosynthetic radiation, consistent drip moisture, balanced calcium and nitrogen nutrition.",
+    "organic_treatment": [
+      "Apply dilute seaweed extract and compost tea fortnightly to boost systemic acquired resistance."
+    ],
+    "chemical_treatment": [
+      "No chemical treatment required."
+    ],
+    "prevention": [
+      "Maintain crop staking, trellising, and suckering for optimal aeration.",
+      "Maintain uniform watering to avert blossom end rot and fungal vulnerabilities."
+    ]
+  }
+}

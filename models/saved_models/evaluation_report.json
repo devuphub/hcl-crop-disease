@@ -1,0 +1,127 @@
+{
+  "overall_accuracy": 69.31,
+  "total_samples": 720,
+  "detailed_metrics": {
+    "Apple - Apple scab": {
+      "precision": 0.8409090909090909,
+      "recall": 0.925,
+      "f1-score": 0.8809523809523809,
+      "support": 40.0
+    },
+    "Apple - Black rot": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "Apple - Cedar apple rust": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "Apple - healthy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 40.0
+    },
+    "Corn - Common rust": {
+      "precision": 1.0,
+      "recall": 0.975,
+      "f1-score": 0.9873417721518988,
+      "support": 40.0
+    },
+    "Corn - Northern Leaf Blight": {
+      "precision": 0.8888888888888888,
+      "recall": 1.0,
+      "f1-score": 0.9411764705882353,
+      "support": 40.0
+    },
+    "Corn - healthy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 40.0
+    },
+    "Potato - Early blight": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 40.0
+    },
+    "Potato - Late blight": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 40.0
+    },
+    "Potato - healthy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 40.0
+    },
+    "Rice - Brown Spot": {
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "f1-score": 0.975609756097561,
+      "support": 40.0
+    },
+    "Rice - Leaf Blast": {
+      "precision": 0.9705882352941176,
+      "recall": 0.825,
+      "f1-score": 0.8918918918918919,
+      "support": 40.0
+    },
+    "Rice - healthy": {
+      "precision": 0.475,
+      "recall": 0.95,
+      "f1-score": 0.6333333333333333,
+      "support": 40.0
+    },
+    "Tomato - Bacterial spot": {
+      "precision": 1.0,
+      "recall": 0.95,
+      "f1-score": 0.9743589743589743,
+      "support": 40.0
+    },
+    "Tomato - Early blight": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1-score": 0.6666666666666666,
+      "support": 40.0
+    },
+    "Tomato - Late blight": {
+      "precision": 0.48,
+      "recall": 0.9,
+      "f1-score": 0.6260869565217392,
+      "support": 40.0
+    },
+    "Tomato - Yellow Leaf Curl Virus": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 40.0
+    },
+    "Tomato - healthy": {
+      "precision": 0.3140495867768595,
+      "recall": 0.95,
+      "f1-score": 0.4720496894409938,
+      "support": 40.0
+    },
+    "accuracy": 0.6930555555555555,
+    "macro avg": {
+      "precision": 0.5789898196805505,
+      "recall": 0.6930555555555555,
+      "f1-score": 0.6138593273335375,
+      "support": 720.0
+    },
+    "weighted avg": {
+      "precision": 0.5789898196805505,
+      "recall": 0.6930555555555555,
+      "f1-score": 0.6138593273335375,
+      "support": 720.0
+    }
+  }
+}
