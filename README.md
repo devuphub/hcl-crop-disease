@@ -7,6 +7,10 @@
 ![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://agriscan-ai.streamlit.app)
+
+> 🚀 **Live Web Application:** [https://agriscan-ai.streamlit.app](https://agriscan-ai.streamlit.app)
+
 ---
 
 ## 📌 Executive Summary
